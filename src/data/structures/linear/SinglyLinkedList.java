@@ -1,5 +1,5 @@
 /**
- * Copyrdddight
+ * Copyrdddsdfsdight
  */
 package data.structures.linear;
 
