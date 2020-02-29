@@ -1,5 +1,5 @@
 /**
- * Copyright
+ * Copyrdddight
  */
 package data.structures.linear;
 
