@@ -1,5 +1,5 @@
 /**
- * Copyrdddight
+ * Copyright 2020
  */
 package data.structures.linear;
 
