@@ -6,6 +6,7 @@ package data.structures.linear;
 public class SinglyLinkedList<T> {
     public Node<T> first = null;
 
+
     public boolean isEmpty() {
         return this.first == null;
     }
