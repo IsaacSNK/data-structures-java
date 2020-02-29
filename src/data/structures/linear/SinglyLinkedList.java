@@ -1,3 +1,6 @@
+/**
+ * Copyright
+ */
 package data.structures.linear;
 
 public class SinglyLinkedList<T> {
