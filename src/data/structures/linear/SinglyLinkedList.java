@@ -15,4 +15,8 @@ public class SinglyLinkedList<T> {
         T value;
         Node<T> next;
     }
+
+    public void fooForMaster() {
+
+    }
 }
