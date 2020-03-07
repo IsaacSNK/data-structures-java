@@ -1,2 +1,10 @@
-language: java
-script: ant dist
+addons:
+  sonarcloud:
+    organization: "linear-data-structures"
+    token:
+      secure: "14da098a2f6a51dca945fb49e2a7ad5224c522b4"
+language:
+  java
+script:
+  - ant dist
+  - sonar-scanner
