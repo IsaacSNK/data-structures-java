@@ -1,4 +1,4 @@
-<project name="linear-data-structures" default="dist" basedir=".">
+<project name="linear-data-structures" default="dist" basedir="." xmlns:sonar="antlib:org.sonar.ant">
     <description>
         Builds a Jar file to pack this artifact
     </description>
@@ -6,6 +6,11 @@
     <property name="build" location="build"/>
     <property name="dist" location="dist"/>
     <property name="version" value="1.0"/>
+    <property name="sonar.organization" value="linear-data-structures"/>
+    <property name="sonar.projectKey" value="IsaacSNK_linear-data-structures"/>
+    <property name="sonar.sources" value="."/>
+    <property name="sonar.host.url" value="https://sonarcloud.io"/>
+    <property name="sonar.login" value="3ce86821adf8c96b1b7cbe7d2ca4f62c538a1a49"/>
 
     <target name="init">
         <tstamp/>
@@ -25,5 +30,12 @@
     <target name="clean" description="clean up">
         <delete dir="${build}"/>
         <delete dir="${dist}"/>
+    </target>
+
+    <target name="sonar">
+        <taskdef uri="antlib:org.sonar.ant" resource="org/sonar/ant/antlib.xml">
+            <classpath path="C:/Users/Isaac/Downloads/sonarqube-ant-task-2.7.0.1612.jar"/>
+        </taskdef>
+        <sonar:sonar/>
     </target>
 </project>
