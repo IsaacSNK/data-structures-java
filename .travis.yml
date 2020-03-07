@@ -2,7 +2,7 @@ addons:
   sonarcloud:
     organization: "linear-data-structures"
     token:
-      secure: "3ce86821adf8c96b1b7cbe7d2ca4f62c538a1a49"
+      secure: "QCsme3HJtHbm7n1bRQUmoQNsFJc0mNWq/ucdHQqvmiaPNHD+ISHvD94/IWAgfwdRr55rv5DSt+1jacNQr9novCeSHgz1QpsSAwzmoqAvYk0FOg2bShsUKtrtaln3FhugrXKi/SWz7wZ/3jNBkZG/0aLn3sUxd3aLuKb3hd0W6f/Xc0gNCPfb8AloAdhth5FDR8vV/ytC/nZA2lT/9yMWwuckhFOuLjEz46139VI4w8ecwsjwGkfSppbCjNFFtscc/AJaIaTjd/9zM1SolrDxsD66uGwY59RFl3+9FBXXLPZPpyeMkhYfONoJEMxMMjSWdDdNiUDe6bHXy5ZTVZl0wvL6HHsmTMCFrHqZJwvE7Xmuevo4vtxCGH4PQfmZ01tM0cOqzY3fsgOpxXHLh1YIruAuW6wQXkR05h1GE2soMBtYYot+FcmYpOp7maix/Xd1udHPENOBTB/I4Gdd4y+cvfs7+7w8A0AJLZ1RUqYHixdNWN4MnY2fKDFQ3kzzEm8JjcstphQLjyoijqWT1oH4RFvAScd3Moh/d7WdnbUXF028PwtCekgevys2g9XCl05/Mf3h6xizQvknGhORluPs3G0I3APwKUjNiBTr6zcwGoTmDWr7X59tazarsXJFPrNQNDioC5YILq6akiffmQIXJ259U3+g3XFAIEYztlHI9n4="
 language:
   java
 script:
