@@ -2,7 +2,7 @@ addons:
   sonarcloud:
     organization: "linear-data-structures"
     token:
-      secure: "14da098a2f6a51dca945fb49e2a7ad5224c522b4"
+      secure: "3ce86821adf8c96b1b7cbe7d2ca4f62c538a1a49"
 language:
   java
 script:
